@@ -49,7 +49,7 @@ var stu = {
 var stuLength = Object.keys(stu).length; //get length of object
 console.log('Size of the current object', stuLength);
 
-const four = document.getElementById('3');
+const four = document.getElementById('4');
 four.innerHTML = `4.)Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books.`;
 
 var library = [
@@ -79,7 +79,7 @@ for (var i = 0; i < library.length; i++) {
   }
 }
 
-const five = document.getElementById('3');
+const five = document.getElementById('5');
 five.innerHTML = `5.)Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.
 Volume of a cylinder : V = πr2h
 where r is the radius and h is the height of the cylinder.`;
