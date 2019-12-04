@@ -181,3 +181,17 @@ function circle(radius) {
 var cir = new circle(3);
 console.log("Area", cir.area().toFixed(2));
 console.log("Perimeter", cir.perimeter().toFixed(2));
+
+const nine = document.getElementById("10");
+nine.innerHTML = `17.)Write a JavaScript function to check if an object contains given property.`;
+
+function hasKey(obj, key) {
+  return obj != null && obj.hasOwnProperty(key);
+}
+// The hasOwnProperty() method returns a boolean indicating whether the object has the specified property as its own property (as opposed to inheriting it)
+console.log(
+  hasKey({ red: "#FF0000", green: "#00FF00", white: "#FFFFFF" }, "green")
+);
+console.log(
+  hasKey({ red: "#FF0000", green: "#00FF00", white: "#FFFFFF" }, "blue")
+);
